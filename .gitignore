@@ -1,0 +1,27 @@
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Output files, except error_analysis.pdf
+output/*.pdf
+!output/error_analysis.pdf
+
+# Miscellaneous
+*.log
+*.bak
+*.tmp
